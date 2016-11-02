@@ -1,7 +1,7 @@
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
         android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/add"
         android:shortcutDisabledMessage="@string/compose_disabled_message1"
         android:shortcutId="compose0"
         android:shortcutLongLabel="@string/compose_shortcut_long_label1"
@@ -18,7 +18,7 @@
     <!-- Specify more shortcuts here. -->
     <shortcut
         android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/add"
         android:shortcutDisabledMessage="@string/compose_disabled_message2"
         android:shortcutId="compose1"
         android:shortcutLongLabel="@string/compose_shortcut_long_label2"
@@ -35,7 +35,7 @@
 
     <shortcut
         android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/add"
         android:shortcutDisabledMessage="@string/compose_disabled_message3"
         android:shortcutId="compose2"
         android:shortcutLongLabel="@string/compose_shortcut_long_label3"
@@ -52,7 +52,7 @@
 
     <shortcut
         android:enabled="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/add"
         android:shortcutDisabledMessage="@string/compose_disabled_message4"
         android:shortcutId="compose3"
         android:shortcutLongLabel="@string/compose_shortcut_long_label4"

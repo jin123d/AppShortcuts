@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             ShortcutInfo shortcut = new ShortcutInfo.Builder(this, "id1")
                     .setShortLabel("Web site")
                     .setLongLabel("qq")
-                    .setIcon(Icon.createWithResource(this, R.mipmap.ic_launcher))
+                    .setIcon(Icon.createWithResource(this, R.drawable.add))
                     .setIntent(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/")))
                     .build();
 
