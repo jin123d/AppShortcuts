@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Code</string>
+    <string name="compose_shortcut_short_label1">short1</string>
+    <string name="compose_shortcut_long_label1">long1</string>
+    <string name="compose_disabled_message1">message1</string>
+
+    <string name="compose_shortcut_short_label2">short2</string>
+    <string name="compose_shortcut_long_label2">long2</string>
+    <string name="compose_disabled_message2">message2</string>
+
+    <string name="compose_shortcut_short_label3">short3</string>
+    <string name="compose_shortcut_long_label3">long3</string>
+    <string name="compose_disabled_message3">message3</string>
+
+    <string name="compose_shortcut_short_label4">short4</string>
+    <string name="compose_shortcut_long_label4">long4</string>
+    <string name="compose_disabled_message4">message4</string>
+
+</resources>

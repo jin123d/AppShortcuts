@@ -1,0 +1,70 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1"
+        android:shortcutId="compose0"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.jin123d.code.MainActivity"
+            android:targetPackage="com.jin123d.code" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/compose_disabled_message2"
+        android:shortcutId="compose1"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label2"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.jin123d.code.MainActivity"
+            android:targetPackage="com.jin123d.code" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/compose_disabled_message3"
+        android:shortcutId="compose2"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label3"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label3">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.jin123d.code.MainActivity"
+            android:targetPackage="com.jin123d.code" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/compose_disabled_message4"
+        android:shortcutId="compose3"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label4"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label4">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.jin123d.code.Main2Activity"
+            android:targetPackage="com.jin123d.code" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list is what the user sees when they
+             launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
